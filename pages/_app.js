@@ -21,8 +21,8 @@ function MyApp({ Component, pageProps }) {
         <meta name="author" content="Adipati arya"/>    
         <link rel="shortcut icon" href="favicon.ico"/>  
         
-        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'/>
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic&display=optional" rel='stylesheet' type='text/css'/>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700&display=optional' rel='stylesheet' type='text/css'/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css"/>
         <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
         <link rel="stylesheet" href="https://unpkg.com/octicons@4.4.0/build/font/octicons.css"/>
