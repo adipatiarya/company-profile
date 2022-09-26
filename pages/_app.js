@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
       <Script type="text/javascript" src="https://unpkg.com/mustache@4.2.0/mustache.min.js"/>
       <Script type="text/javascript" src="https://unpkg.com/github-activity-feed@latest/dist/github-activity.min.js"/>
 
-      <Script src="http://code.jquery.com/jquery-1.11.0.js"/>
+      <Script src="https://code.jquery.com/jquery-1.11.0.js"/>
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"/>
 
       <Script src="./assets/js/main.js" strategy="lazyOnload"/>
