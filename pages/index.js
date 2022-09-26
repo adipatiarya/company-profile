@@ -138,23 +138,25 @@ export default function Home() {
                 <div className="section-inner shadow-sm rounded">
                   <h2 className="heading">Kemampuan</h2>
                   <div className="content">
-                    <p className="intro">Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Github profile so people can get more info there.</p>
+                    <p className="intro">Berikut beberapa bahasa pemrograman yang insyaallah dapat saya kuasai dengan baik.</p>
                     <div className="skillset">
                       <Skil title="Python &amp; Django" level="Beginner" percent="60"/>
-                      <Skil title="Laravel" level="Pro" percent="90"/>
-                      <Skil title="Golang" level="Expert" percent="80"/>
-                      <p><a className="more-link" href="#"><i className="fas fa-external-link-alt"></i>More on GitHub</a></p> 
+                      <Skil title="PHP &amp; Laravel" level="Pro" percent="90"/>
+                      <Skil title="Golang &amp; Gin" level="Expert" percent="80"/>
+                      <Skil title="Java &amp; Spring" level="Expert" percent="80"/>
+                      <Skil title="Javascript &amp; Nodejs" level="Expert" percent="80"/>
+                      <p><a className="more-link" href="#"><i className="fas fa-external-link-alt"></i>Lainnya di GitHub</a></p> 
                     </div>
                   </div>
                 </div>
               </aside>
               <aside className="testimonials aside section">
                 <div className="section-inner shadow-sm rounded">
-                    <h2 className="heading">Testimonials</h2>
+                    <h2 className="heading">Motivasi</h2>
                     <div className="content">
                         <div className="item">
                             <blockquote className="quote">                                  
-                                <p><i className="fas fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
+                                <p><i className="fas fa-quote-left"></i>{`Pertama kita membentuk kebiasaan dan kebiasaan akan membentuk kita. Kalahkan kebiasaan burukmu, atau mereka akan mengalahkan kamu-`} <b>Dr. Rob Gilbert</b></p>
                             </blockquote>                
                             <p className="source"><span className="name">Tim Adams</span><br /><span className="title">Curabitur commodo</span></p>                                                             
                         </div>
@@ -169,12 +171,12 @@ export default function Home() {
                         <h2 className="heading">Pendidikan</h2>
                         <div className="content">
                             <div className="item">                      
-                                <h3 className="title"><i className="fas fa-graduation-cap"></i> MSc Computer Science</h3>
-                                <h4 className="university">University College London <span className="year">(2017-2018)</span></h4>
+                                <h3 className="title"><i className="fas fa-graduation-cap"></i> ITB Bandung</h3>
+                                <h4 className="university">Institut tekhnology bandung <span className="year">(2017-2018)</span></h4>
                             </div>
                             <div className="item">
-                                <h3 className="title"><i className="fas fa-graduation-cap"></i> BSc Computer Science</h3>
-                                <h4 className="university">University of Bristol <span className="year">(2013-2017)</span></h4>
+                                <h3 className="title"><i className="fas fa-graduation-cap"></i> UDEMY Online Couse</h3>
+                                <h4 className="university">Pelatihan Secara mandiri <span className="year">(2013-2017)</span></h4>
                             </div>
                         </div>
                     </div>
@@ -199,13 +201,15 @@ export default function Home() {
              
               <aside className="list music aside section">
                     <div className="section-inner shadow-sm rounded">
-                        <h2 className="heading">Kodingan yang disukai</h2>
-                        <div className="content">
+                        <h2 className="heading">Frameworks</h2>
+                        <div className="content"><p>Di bawah ini adalah list framework yang biasa saya gunakan untuk mengerjakan proyek.</p>
                             <ul className="list-unstyled">
-                                <li><i className="fas fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                                <li><i className="fas fa-headphones"></i> <a href="#">Ut sollicitudin in mauris non auctor</a></li>
-                                <li><i className="fas fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                                <li><i className="fas fa-headphones"></i> <a href="#">Duis et felis bibendum</a></li>
+                                <li><i className="fas fa-code"></i> <a href="#">Gin - Golang</a></li>
+                                <li><i className="fas fa-code"></i> <a href="#">Laravel - PHP</a></li>
+                                <li><i className="fas fa-code"></i> <a href="#">Android Studio - Java</a></li>
+                                <li><i className="fas fa-code"></i> <a href="#">Spring - Java</a></li>
+                                <li><i className="fas fa-code"></i> <a href="#">React - Javascript</a></li>
+                                <li><i className="fas fa-code"></i> <a href="#">Vue - Javascript</a></li>
                             </ul>
                         </div>
                     </div>
@@ -239,14 +243,6 @@ export default function Home() {
                             
                             <hr/>
                             
-                             <p className="pt-2">This Boootstrap portfolio template is handcrafted by UX designer <a href="https://twitter.com/3rdwave_themes">Xiaoying Riley</a> at <a href="#">3rd Wave Media</a> for developers and is <strong>FREE</strong> as long as you keep the footer attribution link.</p>
-                             <p>If you’d like to <strong>use this template without the attribution link</strong>{`, you can `}<a href="#">buy the commercial license</a>.</p>
-                             
-                             <a className="btn btn-cta-primary btn-download" href="#"><i className="fas fa-download"></i> Saya ingin download</a>
-                            <hr/>
-                            <h5 className="subheading pt-3">Want more free Bootstrap themes and templates?</h5>
-                            <p>Check out our <a href="#">collection of free themes and templates.</a></p>
-                            <p>Ikuti <a href="#">Adipatiarya</a>{` on twitter untuk berkenalan lebih lanjut!`}</p> 
                             
                             <a className="btn btn-cta-secondary btn-follow" href="#"><i className="fab fa-twitter"></i> Ikuti di twitter</a>
                             

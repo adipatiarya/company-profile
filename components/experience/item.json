@@ -3,21 +3,21 @@
       "url":"#",
       "title":"Co-Founder & Lead Developer",
       "subtitle": "Startup Hub",
-      "description": "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt",
+      "description": "Saat ini sedang bekerja di salah satu perusahaan market terbesar yang ada di indonesia",
       "year": "2022 - Present"
     },
     {
         "url":"#",
         "title":"Software Engineer",
-        "subtitle": "Google",
-        "description": "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt",
+        "subtitle": "Arch Institute",
+        "description": "Pernah ikut serta dalam pengembangan proyek berbasis applikasi desktop",
         "year": "2000 - 2019"
     },
     {
         "url":"#",
         "title":"DevOps",
-        "subtitle": "Microsoft Azure",
-        "description": "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt",
+        "subtitle": "Bukalapak",
+        "description": "Menjadi devops menggunakan Microsof Azure dan Amazon web service",
         "year": "2017 - 2020"
     }
 ]

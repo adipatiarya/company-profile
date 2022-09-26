@@ -1,23 +1,23 @@
 [
     {
       "url":"#",
-      "title":"Pillar - Free Boootstrap Resume/CV Template for Developers",
+      "title":"Telkomsel - Rest full Api",
       "price": "Free",
-      "description": "You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis",
+      "description": "Untuk membeli sebuah paket internet telkomsel menggunakan curl dengan cara direct tanpa menggunakan aplikasi resmi, tindakan ini Ilegal.",
       "link": "#"
     },
     {
         "url":"#",
-        "title":"Blog - Free Boootstrap Resume/CV Template for Developers",
+        "title":"Axis - Rest full Api",
         "price": "Free",
-        "description": "You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis",
+        "description": "Untuk membeli sebuah paket internet axis menggunakan dengan cara direct tanpa menggunakan aplikasi resmi, tindakan ini Ilegal.",
         "link": "#"
     },
     {
         "url":"#",
-        "title":"Ecommmerce - Free Boootstrap Resume/CV Template for Developers",
+        "title":"WA- Gateway ",
         "price": "Free",
-        "description": "You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis",
+        "description": "Aplikasi pembayaran dengan menggunakan whatsapp sebagai jembatan perantara",
         "link": "#"
     }
 ]
