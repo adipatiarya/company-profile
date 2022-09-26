@@ -11,7 +11,7 @@ export default function item({data}) {
             <div className="desc col-md-8 col-12">
                 <h3 className="title"><a href={title.url}>{title.name}</a></h3>
                 <p className="mb-2">{description}</p>
-                <p><a className="more-link" href={link}><i className="fas fa-external-link-alt"></i>Find out more</a></p>
+                <p><a className="more-link" href={link}><i className="fas fa-external-link-alt"></i>Cari yang lain</a></p>
             </div>
         </div>
     );

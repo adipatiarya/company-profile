@@ -5,6 +5,3 @@ GitHubActivity.feed({
     selector: "#feed",
     limit: 20, // optional
 });
-jQuery(function($) {
-    $("#rss-feeds").rss("http://feeds.feedburner.com/premiumpixels");
-});

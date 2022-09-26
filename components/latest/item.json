@@ -1,35 +1,35 @@
 [
     {
       "url":"#",
-      "image":"assets/images/projects/project-1.png",
+      "image":"https://cdn.projects.co.id/upload/usr966f11/201909135d7bca7723d91.jpg",
   
       "title":{
-        "name": "CoderPro - Boootstrap Startup Template For Software Projects",
+        "name": "Tahun - 2017",
         "url" :"#"
       },
-      "description": "You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis",
+      "description": "Aplikasi ini di dibuat agar memudahkan dalam mempelajari bahasa inggris dengan manajemen penilaian dll",
       "link": "#"
     },
     {
         "url":"#",
-        "image":"assets/images/projects/project-2.png",
+        "image":"https://cdn.projects.co.id/upload/usr57f323/20220311622ab8d045bf8.jpg",
     
         "title":{
-          "name": "Laravel - Boootstrap Startup Template For Software Projects",
+          "name": "Tahun - 2011",
           "url" :"#"
         },
-        "description": "You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis",
+        "description": "Aplikasi Pelanggan PDAM. untuk monitoring PLC meter air.katup dan valve air bisa di set secara mudah dan praktis melalui aplikasi ini",
         "link": "#"
       },
       {
         "url":"#",
-        "image":"assets/images/projects/project-2.png",
+        "image":"https://cdn.projects.co.id/upload/usr57f323/20220311622ab8460fd4c.jpg",
     
         "title":{
-          "name": "Database - Boootstrap Startup Template For Software Projects",
+          "name": "Tahun - 2021",
           "url" :"#"
         },
-        "description": "You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis",
+        "description": "Aplikasi Management output pekerjaan untuk internal NUWSP.aplikasi di rancang untuk pembuatan task pekerjaan Tenaga Ahli",
         "link": "#"
       }
   ]

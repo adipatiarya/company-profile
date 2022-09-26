@@ -7,10 +7,7 @@ import experiences from  '../components/experience/item.json';
 
 import Skil from '../components/skils/Item';
 
-
-
 export default function Home() {
-  
   
   return (
       <>
@@ -21,7 +18,7 @@ export default function Home() {
                 <img className="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.jpeg" alt="profile image" />
                 <div className="profile-content">
 		                <h1 className="name">Adipati Arya</h1>
-		                <h2 className="desc">Backend Developer</h2>   
+		                <h2 className="desc">Fullstack Developer</h2>   
 		                <ul className="social list-inline">
 		                    <li className="list-inline-item"><a href="#"><i className="fab fa-twitter"></i></a></li>
 		                    <li className="list-inline-item"><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
@@ -42,15 +39,18 @@ export default function Home() {
             <div className="primary col-lg-8 col-12">
               <section className="about section">
                 <div className="section-inner shadow-sm rounded">
-                  <h2 className="heading">About Me</h2>
+                  <h2 className="heading">Tentang Saya</h2>
                   <div className="content">
-                    <p>{`Write a brief intro about yourself. It's a good idea to include your personal interests and hobbies as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Commodo ligula eget dolor. Aenean massa.`}</p>     
+                    <p>
+                      {`Halo,Saya Adipati`}
+                    </p>
+                    <p>{`Saya adalah seorang Software Engineer dengan 10 tahun pengalaman. Berpengalaman dalam berbagai macam teknologi, diantaranya HTML, CSS, Javascript, React JS, Vue JS, PHP, Laravel, MySQL, Microsoft SQL Server, dan GIT. Terampil dalam pemecahan masalah dan melaksanakan tugas-tugas dari awal sampai akhir. Cinta dan semangat untuk belajar teknologi baru dan bekerja untuk dunia yang lebih baik.`}</p>     
                   </div>
                 </div>
               </section>
               <section className="latest section">
                 <div className="section-inner shadow-sm rounded">
-                  <h2 className="heading">Latest Project</h2>
+                  <h2 className="heading">Proyek Sekarang</h2>
                   <div className="content">
                     <div className="item featured text-center">
                       <div className="featured-image has-ribbon">
@@ -61,11 +61,11 @@ export default function Home() {
                             <div className="text">New</div>
                         </div>
                       </div>
-                      <h3 className="title mb-3"><a href="#">Launch - The perfect Bootstrap template for SaaS products</a></h3>
+                      <h3 className="title mb-3"><a href="#">Eccommerce - Laravel web Ecomerce</a></h3>
                       <div className="desc text-start">
-                        <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+                        <p>{`Saat ini saya sedang mengembangkan proyek open source mengguanakn framework laravel. yaitu pembuatan website toko online seperti web toko online yg terkenal seperti shoopee, bukalapak dll. `}</p>
                       </div>
-                      <a className="btn btn-cta-secondary" href="#"><i className="fas fa-thumbs-up"></i> Back my project</a> 
+                      <a className="btn btn-cta-secondary" href="#"><i className="fas fa-thumbs-up"></i> Kembali ke proyek saya</a> 
                     </div>
                     <hr className="divider" />
                     {
@@ -80,7 +80,7 @@ export default function Home() {
               </section>
               <section className="projects section">
                 <div className="section-inner shadow-sm rounded">
-                  <h2 className="heading">Other Projects</h2>
+                  <h2 className="heading">Proyek yang lain</h2>
                   <div className="content">
                   {
                       projects.map(function(object, i){
@@ -90,13 +90,13 @@ export default function Home() {
                       })
                     }
 
-                    <a className="btn btn-cta-secondary" href="#">More on GitHub <i className="fas fa-chevron-right pt-1"></i></a>  
+                    <a className="btn btn-cta-secondary" href="#">Lainnya di Github <i className="fas fa-chevron-right pt-1"></i></a>  
                   </div>
                 </div>
               </section>
               <section className="experience section">
                 <div className="section-inner shadow-sm rounded">
-                  <h2 className="heading">Work Experience</h2>
+                  <h2 className="heading">Pengalaman Kerja</h2>
                   <div className="content">
                     {
                        experiences.map(function(object, i){
@@ -112,11 +112,11 @@ export default function Home() {
               </section>
               <section className="github section">
                 <div className="section-inner shadow-sm rounded">
-                  <h2 className="heading">My GitHub</h2>
-                  <p>{`You can embed your GitHub contribution graph calendar using IonicaBizau's `}<a href="#">GitHub Calendar</a> widget. </p>
+                  <h2 className="heading">GitHub Saya</h2>
+                  
                   
                   <div id="github-graph" className="github-graph"></div>
-                  <p>Y{`ou can also embed your GitHub activities using Casey Scarborough's`} <a href="https://github.com/caseyscarborough/github-activity">GitHub Activity Stream</a> widget.</p>
+                  
                   <div id="feed" className="ghfeed"></div>
                 </div>
               </section>
@@ -124,7 +124,7 @@ export default function Home() {
             <div className="secondary col-lg-4 col-12">
               <aside className="info aside section">
                 <div className="section-inner shadow-sm rounded">
-                    <h2 className="heading sr-only">Basic Information</h2>
+                    <h2 className="heading sr-only">Informasi Dasar</h2>
                     <div className="content">
                         <ul className="list-unstyled">
                             <li><i className="fas fa-map-marker-alt"></i><span className="sr-only">Location:</span>Kab Cilacap, ID</li>
@@ -136,7 +136,7 @@ export default function Home() {
               </aside>
               <aside className="skills aside section">
                 <div className="section-inner shadow-sm rounded">
-                  <h2 className="heading">Skills</h2>
+                  <h2 className="heading">Kemampuan</h2>
                   <div className="content">
                     <p className="intro">Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Github profile so people can get more info there.</p>
                     <div className="skillset">
@@ -166,7 +166,7 @@ export default function Home() {
               </aside>
               <aside className="education aside section">
                     <div className="section-inner shadow-sm rounded">
-                        <h2 className="heading">Education</h2>
+                        <h2 className="heading">Pendidikan</h2>
                         <div className="content">
                             <div className="item">                      
                                 <h3 className="title"><i className="fas fa-graduation-cap"></i> MSc Computer Science</h3>
@@ -181,7 +181,7 @@ export default function Home() {
               </aside>
               <aside className="languages aside section">
                     <div className="section-inner shadow-sm rounded">
-                        <h2 className="heading">Languages</h2>
+                        <h2 className="heading">Bahasa</h2>
                         <div className="content">
                             <ul className="list-unstyled">
                                 <li className="item">
@@ -190,24 +190,16 @@ export default function Home() {
                                 </li>
                                 <li className="item">
                                     <span className="title"><strong>Indonesia:</strong></span>
-                                    <span className="level">Professional Proficiency <br className="visible-sm visible-xs"/><i className="fas fa-star"></i> <i className="fas fa-star"></i> <i className="fas fa-star"></i> <i className="fas fa-star-half"></i></span>
+                                    <span className="level">Lancar berbahasa dan menulis dengan bahasa ini <br className="visible-sm visible-xs"/><i className="fas fa-star"></i> <i className="fas fa-star"></i> <i className="fas fa-star"></i> <i className="fas fa-star-half"></i></span>
                                 </li>
                             </ul>
                         </div>
                     </div>
               </aside>
-              <aside className="blog aside section">
-                    <div className="section-inner shadow-sm rounded">
-                        <h2 className="heading">Latest Blog Posts</h2>
-                        <p>{`You can use Sascha Depold's`} <a href="https://github.com/sdepold/jquery-rss">Vanilla RSS plugin</a> to pull in your blog post feeds.</p>
-                        <div id="rss-feeds" className="content">
-
-                        </div>
-                    </div>
-              </aside>
+             
               <aside className="list music aside section">
                     <div className="section-inner shadow-sm rounded">
-                        <h2 className="heading">Favourite coding music</h2>
+                        <h2 className="heading">Kodingan yang disukai</h2>
                         <div className="content">
                             <ul className="list-unstyled">
                                 <li><i className="fas fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
@@ -220,7 +212,7 @@ export default function Home() {
               </aside>
               <aside className="list conferences aside section">
                     <div className="section-inner shadow-sm rounded">
-                        <h2 className="heading">Conferences</h2>
+                        <h2 className="heading">Konverensi</h2>
                         <div className="content">
                             <ul className="list-unstyled">
                                 <li><i className="far fa-calendar-alt"></i> <a href="#">WWDC 2030</a> (San Francisco)</li>
@@ -250,13 +242,13 @@ export default function Home() {
                              <p className="pt-2">This Boootstrap portfolio template is handcrafted by UX designer <a href="https://twitter.com/3rdwave_themes">Xiaoying Riley</a> at <a href="#">3rd Wave Media</a> for developers and is <strong>FREE</strong> as long as you keep the footer attribution link.</p>
                              <p>If you’d like to <strong>use this template without the attribution link</strong>{`, you can `}<a href="#">buy the commercial license</a>.</p>
                              
-                             <a className="btn btn-cta-primary btn-download" href="#"><i className="fas fa-download"></i> I want to download</a>
+                             <a className="btn btn-cta-primary btn-download" href="#"><i className="fas fa-download"></i> Saya ingin download</a>
                             <hr/>
                             <h5 className="subheading pt-3">Want more free Bootstrap themes and templates?</h5>
                             <p>Check out our <a href="#">collection of free themes and templates.</a></p>
-                            <p>Follow <a href="#">Xiaoying</a>{` on twitter so you don't miss any future freebies!`}</p> 
+                            <p>Ikuti <a href="#">Adipatiarya</a>{` on twitter untuk berkenalan lebih lanjut!`}</p> 
                             
-                            <a className="btn btn-cta-secondary btn-follow" href="#"><i className="fab fa-twitter"></i> Follow on twitter</a>
+                            <a className="btn btn-cta-secondary btn-follow" href="#"><i className="fab fa-twitter"></i> Ikuti di twitter</a>
                             
                         </div>
                     </div>
