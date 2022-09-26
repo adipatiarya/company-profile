@@ -44,7 +44,7 @@ export default function Home() {
                 <div className="section-inner shadow-sm rounded">
                   <h2 className="heading">About Me</h2>
                   <div className="content">
-                    <p>{`Write a brief intro about yourself. It's a good idea to include your personal interests and hobbies as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Commodo ligula eget dolor. Aenean massa.`}</p>     
+                    <p>Write a brief intro about yourself. It's a good idea to include your personal interests and hobbies as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Commodo ligula eget dolor. Aenean massa.</p>     
                   </div>
                 </div>
               </section>
@@ -55,7 +55,7 @@ export default function Home() {
                     <div className="item featured text-center">
                       <div className="featured-image has-ribbon">
                         <a href="#">
-                          <img className="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-featured.jpg" alt="project name" />
+                          <Image className="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-featured.jpg" alt="project name" />
                         </a>
                         <div className="ribbon">
                             <div className="text">New</div>
@@ -113,10 +113,10 @@ export default function Home() {
               <section className="github section">
                 <div className="section-inner shadow-sm rounded">
                   <h2 className="heading">My GitHub</h2>
-                  <p>{`You can embed your GitHub contribution graph calendar using IonicaBizau's `}<a href="#">GitHub Calendar</a> widget. </p>
+                  <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="#">GitHub Calendar</a> widget. </p>
                   
                   <div id="github-graph" className="github-graph"></div>
-                  <p>Y{`ou can also embed your GitHub activities using Casey Scarborough's`} <a href="https://github.com/caseyscarborough/github-activity">GitHub Activity Stream</a> widget.</p>
+                  <p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://github.com/caseyscarborough/github-activity">GitHub Activity Stream</a> widget.</p>
                   <div id="feed" className="ghfeed"></div>
                 </div>
               </section>
@@ -178,8 +178,8 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-              </aside>
-              <aside className="languages aside section">
+                </aside>
+                <aside className="languages aside section">
                     <div className="section-inner shadow-sm rounded">
                         <h2 className="heading">Languages</h2>
                         <div className="content">
@@ -195,17 +195,17 @@ export default function Home() {
                             </ul>
                         </div>
                     </div>
-              </aside>
-              <aside className="blog aside section">
+                </aside>
+                <aside className="blog aside section">
                     <div className="section-inner shadow-sm rounded">
                         <h2 className="heading">Latest Blog Posts</h2>
-                        <p>{`You can use Sascha Depold's`} <a href="https://github.com/sdepold/jquery-rss">Vanilla RSS plugin</a> to pull in your blog post feeds.</p>
+                        <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss">Vanilla RSS plugin</a> to pull in your blog post feeds.</p>
                         <div id="rss-feeds" className="content">
 
                         </div>
                     </div>
-              </aside>
-              <aside className="list music aside section">
+                </aside>
+                <aside className="list music aside section">
                     <div className="section-inner shadow-sm rounded">
                         <h2 className="heading">Favourite coding music</h2>
                         <div className="content">
@@ -217,8 +217,8 @@ export default function Home() {
                             </ul>
                         </div>
                     </div>
-              </aside>
-              <aside className="list conferences aside section">
+                </aside>
+                <aside className="list conferences aside section">
                     <div className="section-inner shadow-sm rounded">
                         <h2 className="heading">Conferences</h2>
                         <div className="content">
@@ -248,21 +248,20 @@ export default function Home() {
                             <hr/>
                             
                              <p className="pt-2">This Boootstrap portfolio template is handcrafted by UX designer <a href="https://twitter.com/3rdwave_themes">Xiaoying Riley</a> at <a href="#">3rd Wave Media</a> for developers and is <strong>FREE</strong> as long as you keep the footer attribution link.</p>
-                             <p>If you’d like to <strong>use this template without the attribution link</strong>{`, you can `}<a href="#">buy the commercial license</a>.</p>
+                             <p>If you’d like to <strong>use this template without the attribution link</strong>, you can <a href="#">buy the commercial license</a>.</p>
                              
                              <a className="btn btn-cta-primary btn-download" href="#"><i className="fas fa-download"></i> I want to download</a>
                             <hr/>
                             <h5 className="subheading pt-3">Want more free Bootstrap themes and templates?</h5>
                             <p>Check out our <a href="#">collection of free themes and templates.</a></p>
-                            <p>Follow <a href="#">Xiaoying</a>{` on twitter so you don't miss any future freebies!`}</p> 
+                            <p>Follow <a href="#">Xiaoying</a> on twitter so you don't miss any future freebies!</p> 
                             
                             <a className="btn btn-cta-secondary btn-follow" href="#"><i className="fab fa-twitter"></i> Follow on twitter</a>
                             
                         </div>
                     </div>
-                </aside>  
+                </aside>
             </div>
-          
           </div> 
         </div>
         <footer className="footer">
