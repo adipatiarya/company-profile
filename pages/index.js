@@ -18,7 +18,7 @@ export default function Home() {
                 <img className="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.jpeg" alt="profile image" />
                 <div className="profile-content">
 		                <h1 className="name">Adipati Arya</h1>
-		                <h2 className="desc">Fullstack Developer</h2>   
+		                <h2 className="desc">Suratman</h2>   
 		                <ul className="social list-inline">
 		                    <li className="list-inline-item"><a href="#"><i className="fab fa-twitter"></i></a></li>
 		                    <li className="list-inline-item"><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
@@ -42,7 +42,7 @@ export default function Home() {
                   <h2 className="heading">Tentang Saya</h2>
                   <div className="content">
                     <p>
-                      {`Halo,Saya Adipati`}
+                      {`Halo,nama saya Adipati arya(Nama alias di internet)`}
                     </p>
                     <p>{`Saya adalah seorang Software Engineer dengan 10 tahun pengalaman. Berpengalaman dalam berbagai macam teknologi, diantaranya HTML, CSS, Javascript, React JS, Vue JS, PHP, Laravel, MySQL, Microsoft SQL Server, dan GIT. Terampil dalam pemecahan masalah dan melaksanakan tugas-tugas dari awal sampai akhir. Cinta dan semangat untuk belajar teknologi baru dan bekerja untuk dunia yang lebih baik.`}</p>     
                   </div>
