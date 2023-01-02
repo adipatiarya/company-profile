@@ -170,10 +170,7 @@ export default function Home() {
                     <div className="section-inner shadow-sm rounded">
                         <h2 className="heading">Pendidikan</h2>
                         <div className="content">
-                            <div className="item">                      
-                                <h3 className="title"><i className="fas fa-graduation-cap"></i> ITB Bandung</h3>
-                                <h4 className="university">Institut tekhnology bandung <span className="year">(2017-2018)</span></h4>
-                            </div>
+                          
                             <div className="item">
                                 <h3 className="title"><i className="fas fa-graduation-cap"></i> UDEMY Online Couse</h3>
                                 <h4 className="university">Pelatihan Secara mandiri <span className="year">(2013-2017)</span></h4>
@@ -207,9 +204,8 @@ export default function Home() {
                                 <li><i className="fas fa-code"></i> <a href="#">Gin - Golang</a></li>
                                 <li><i className="fas fa-code"></i> <a href="#">Laravel - PHP</a></li>
                                 <li><i className="fas fa-code"></i> <a href="#">Android Studio - Java</a></li>
-                                <li><i className="fas fa-code"></i> <a href="#">Spring - Java</a></li>
                                 <li><i className="fas fa-code"></i> <a href="#">React - Javascript</a></li>
-                                <li><i className="fas fa-code"></i> <a href="#">Vue - Javascript</a></li>
+                        
                             </ul>
                         </div>
                     </div>
